@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Gilbert Lavergne-Shank - Software Developer</title>
+  <meta name="description" content="Gilbert Lavergne-Shank Resume">
+  <meta name="author" content="Gilbert Lavergne-Shank">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="intro">
+      <div>Hello!</div>
+      <p>I'm <b>Gilbert Lavergne-Shank</b>, a software developer that specializes in front-end development and all things web.</p>
+      <div class="button-container">
+        <a class="button" href="mailto:contact@gilbertls.com">EMAIL</a>
+        <a class="button" href="https://ca.linkedin.com/in/gilbert-lavergne-shank-9082bb8a">LINKEDIN</a>
+        <a class="button" href="https://github.com/GilbertLS">GITHUB</a>
+        <a class="button" href="resume.pdf">MY RESUME</a>
+      </div>
+    </div>
+    <div class="bouncing-arrow" onclick="smoothScroll('aboutMe')">
+      <div class="bouncing-arrow__arrow"><div>
+    <div>
+  </header>
+
+  <!-- About Me -->
+  <section class="section about" id="aboutMe">
+    <div class="section__title">ABOUT ME</div>
+    <div class="section__content">
+      <div class="block">
+        <p class="block__paragraph">
+          I am a graduate of Carleton University's Computer Science program currently residing in Ottawa, Canada. Although I do specialize in front-end development, I am often involved and definitely enjoy working on the full web development stack.
+        </p>
+        <p class="block__paragraph">
+          On my own time, I can be found biking or trying to lift heavy objects at the gym. I enjoy reading, some of my favorite books are Brave New World and Ender's Game.
+        </p>
+      </div>
+
+      <div class="block">
+        <div class="block__title">
+          <div class="block__title__title">Bachelor of Computer Science Honours</div>
+          <div class="block__title__date">2016</div>
+        </div>
+        <div class="block__subtitle">Carleton University</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section skills">
+    <div class="section__title">SKILLS</div>
+    <div class="section__content">
+      <div class="block flex">
+        <div class="block__skills">
+          <div class="block__skills__title">LANGUAGES</div>
+          <ul class="block__skills__list">
+            <li>JavaScript (ES6)</li>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>SASS</li>
+            <li>Python</li>
+            <li>French</li>
+          </ul>
+        </div>
+
+        <div class="block__skills">
+          <div class="block__skills__title">FRAMEWORKS</div>
+          <ul class="block__skills__list">
+            <li>React</li>
+            <li>React Native</li>
+            <li>Redux</li>
+            <li>JQuery</li>
+            <li>Angular</li>
+          </ul>
+        </div>
+
+        <div class="block__skills">
+          <div class="block__skills__title">TOOLS</div>
+          <ul class="block__skills__list">
+            <li>Node.js</li>
+            <li>Git</li>
+            <li>Webpack</li>
+            <li>Amplitude</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section experience">
+    <div class="section__title">EXPERIENCE</div>
+    <div class="section__content">
+      <!-- IBM Present -->
+      <div class="block">
+        <div class="block__title">
+          <div class="block__title__title">IBM (IBM Cloud)</div>
+          <div class="block__title__date">Jan 2017 - Present</div>
+        </div>
+        <div class="block__subtitle">Software Developer</div>
+        <ul class="block__list">
+          <li>Used React, Redux, and GraphQL, to create highly interactive pages and forms that represent complex back-end data on the front-end</li>
+          <li>Wrote a suite of new tests, using Jest as the testing framework, to bring the code coverage from 0% to over 90%</li>
+          <li>Worked with mutiple teams in the design and implementation of new features, which have had positive effects on growth and retention</li>
+        </ul>
+      </div>
+
+      <!-- Solink CO-OP 3 -->
+      <div class="block">
+        <div class="block__title">
+          <div class="block__title__title">Solink</div>
+          <div class="block__title__date">May - Aug 2015</div>
+        </div>
+        <div class="block__subtitle">Software Developer Intern</div>
+        <ul class="block__list">
+          <li>Added new features and fixed bugs in Angular, for their older product</li>
+          <li>Worked on the implementation of the UI, for a new version of their product, using React.js, Flux, Webpack, and ES6</li>
+          <li>Used Google's Material Design guidelines when implementing new UI components that could then be reused by the team</li>
+        </ul>
+      </div>
+
+      <!-- IBM CO-OP 2 -->
+      <div class="block">
+        <div class="block__title">
+          <div class="block__title__title">IBM (Cognos)</div>
+          <div class="block__title__date">May - Aug 2014</div>
+        </div>
+        <div class="block__subtitle">Software Developer Intern</div>
+      </div>
+
+      <!-- IBM CO-OP 1 -->
+      <div class="block">
+        <div class="block__title">
+          <div class="block__title__title">IBM (Cognos)</div>
+          <div class="block__title__date">Sept - Dec 2013</div>
+        </div>
+        <div class="block__subtitle">Software Developer Intern</div>
+      </div>
+
+      <div class="button-container resume-button">
+        <a class="button" href="#">MY RESUME</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section projects">
+    <div class="section__title">PROJECTS</div>
+    <div class="section__content">
+      <!-- MovieCircle -->
+      <div class="block">
+        <div class="block__title">
+          <a href="https://moviecircle.gilbertls.com" class="block__title__title link">
+            MovieCircle
+            <svg class="block__title__title__arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+            </svg>
+          </a>
+        </div>
+        <p class="block__paragraph">
+          A movie tracking application for both the web and for Android devices. This application allowed users to discover movies, rate them, and track them. Both versions of the app were made in JavaScript (React and React Native), which allowed for 30% of the code base to be shared.
+        </p>
+        <div class="block__pills">
+          <div class="block__pills__pill">JavaScript</div>
+          <div class="block__pills__pill">React</div>
+          <div class="block__pills__pill">React Native</div>
+          <div class="block__pills__pill">Flux</div>
+          <div class="block__pills__pill">MongoDB</div>
+        </div>
+      </div>
+
+      <!-- WebRTC Chat -->
+      <div class="block">
+        <div class="block__title">
+          <a href="https://github.com/GilbertLS/DrawNChat" class="block__title__title link">
+            WebRTC Chat And Drawing Web App
+            <svg class="block__title__title__arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+            </svg>
+          </a>
+        </div>
+        <p class="block__paragraph">
+          A collaboration tool which allows users to draw and chat in real time. WebRTC was used to offload the transfer of data which permits the app to have very minimal back-end.
+        </p>
+        <div class="block__pills">
+          <div class="block__pills__pill">JavaScript</div>
+          <div class="block__pills__pill">JQuery</div>
+          <div class="block__pills__pill">WebRTC</div>
+          <div class="block__pills__pill">WebSockets</div>
+        </div>
+      </div>
+
+      <!-- TSP -->
+      <div class="block">
+        <div class="block__title">
+          <a href="https://gilbertls.github.io/2-approximation-TSP/" class="block__title__title link">
+            2-Approximation TSP
+            <svg class="block__title__title__arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+            </svg>
+          </a>
+        </div>
+        <p class="block__paragraph">
+          A visual representation and implementation of a 2-approximation algorithm which solves the traveling salesman problem with a solution whose cost is at most twice the optimal.
+        </p>
+        <div class="block__pills">
+          <div class="block__pills__pill">JavaScript</div>
+          <div class="block__pills__pill">HTML5 Canvas</div>
+        </div>
+      </div>
+
+      <!-- NATribes.com -->
+      <div class="block">
+        <div class="block__title">
+          <a href="https://web.archive.org/web/20140517174045/http://natribes.com/" class="block__title__title link">
+            NATribes.com
+            <svg class="block__title__title__arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+            </svg>
+          </a>
+        </div>
+        <p class="block__paragraph">
+          A competitive ladder website that was used by the Tribes Ascend gaming community to organize tournaments and matches. I was tasked with adding extra functionality to the site such as administration tools and quality of life features.
+        </p>
+        <div class="block__pills">
+          <div class="block__pills__pill">JavaScript</div>
+          <div class="block__pills__pill">WordPress</div>
+          <div class="block__pills__pill">PHP</div>
+          <div class="block__pills__pill">MySQL</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section contact">
+    <div class="section__title"></div>
+    <div class="section__content">
+      <div class="button-container">
+        <a class="button" href="mailto:contact@gilbertls.com">EMAIL</a>
+        <a class="button" href="https://ca.linkedin.com/in/gilbert-lavergne-shank-9082bb8a">LINKEDIN</a>
+        <a class="button" href="https://github.com/GilbertLS">GITHUB</a>
+        <a class="button" href="resume.pdf">MY RESUME</a>
+      </div>
+    </div>
+  </section>
+  <script src="scripts.js"></script>
+</body>
+</html>
